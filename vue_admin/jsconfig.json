@@ -1,0 +1,32 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "src/*" // 这个本来就有
+      ],
+      // 后边追加
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@router/*": [
+        "src/router/*"
+      ],
+      "@views/*": [
+        "src/views/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@interface/*": [
+        "src/http/interface/*"
+      ],
+    },
+  }
+}

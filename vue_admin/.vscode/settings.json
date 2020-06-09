@@ -1,0 +1,16 @@
+{
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "path-intellisense.mappings": {  // 这是解决TypeScript 别名引入模块后找不到模块的问题，需要安装vscode插件 Path Intellisense
+        "@": "${workspaceRoot}/src"
+    }
+}
