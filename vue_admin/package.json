@@ -32,7 +32,7 @@
     "qiniu-js": "^2.5.5",
     "qs": "^6.9.1",
     "screenfull": "^5.0.1",
-    "standard-version": "^7.0.1",
+    "standard-version": "^8.0.1",
     "vue": "^2.6.10",
     "vue-i18n": "^8.15.3",
     "vue-router": "^3.1.5",
